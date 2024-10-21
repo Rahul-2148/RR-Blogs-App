@@ -1,0 +1,20 @@
+# Dependencies
+frontend/node_modules/
+backend/node_modules/
+
+# Environment variables
+backend/.env
+
+# Log files
+frontend/logs
+backend/logs
+*.log
+
+# Temporary files
+frontend/tmp/
+backend/tmp/
+frontend/temp/
+backend/temp/
+
+# OS generated files
+Thumbs.db

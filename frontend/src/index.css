@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@100;300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@100;300;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+span {
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+/*------------- Dark Mode Light Mode css start ----------------*/
+
+/* #1a202c - This is very dark blue-gray/ charcoal color */
+/* #e2e8f0 - This is very light gray with a slight blue tint */
+/* #4a5568 - This is medium gray with a slight blue undertone */
+
+/* :root {
+    --bg-light: #ffffff;
+    --text-light: #000000;
+    --bg-dark: #1a202c;  
+    --text-dark: #ffffff;
+  }
+  
+  body {
+    background-color: var(--bg-light);
+    color: var(--text-light);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dark body {
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+  } */
+
+/*------------- Dark Mode Light Mode css end ----------------*/
+

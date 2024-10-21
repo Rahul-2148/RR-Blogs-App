@@ -1,0 +1,36 @@
+# Full Stack Blog Web App Planning
+
+## Project Structure
+- *Frontend Folder*
+  - Technology: React
+  - Styling: Tailwind CSS, Bootstrap (for future modifications)
+  - Libraries:
+    - SweetAlert for alerts
+    - Toast for notifications
+    - React Icons for icon support
+
+- *Backend Folder*
+  - Technology: Node.js, Express.js
+  - Database: MongoDB
+
+## Features
+1. *User Accounts*
+   - Users can create their own accounts.
+   - Users can read and view blog posts.
+
+2. *Admin Accounts*
+   - Admins can create their own accounts.
+   - Admins can manage blog posts:
+     - Create new blog posts.
+     - Update existing blog posts.
+     - Delete blog posts.
+   - Admin Dashboard for managing blog posts.
+
+3. *DarkMode Supported 
+
+## Future Enhancements
+- I will Add more features and functionalities as needed.
+- Enhance styling using Bootstrap components based on requirements.
+- Implement more notifications and alerts for user interactions based based on requirements.
+- Optimize performance and user experience.
+
