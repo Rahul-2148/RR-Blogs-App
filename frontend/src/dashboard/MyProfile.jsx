@@ -8,11 +8,11 @@ function MyProfile() {
     <div>
       <div className="flex justify-center items-center min-h-screen bg-gray-100">
         <div className="bg-white shadow-lg rounded-lg overflow-hidden max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg w-full">
-          <div className="relative">
+          <div className="relative shadow-lg rounded-2xl">
             <img
               src={profile?.user?.photo?.url}
               alt="avatar"
-              className="w-full h-48 object-cover"
+              className="w-full h-50 object-cover"
             />
             <div className="absolute inset-x-0 bottom-0 transform translate-y-1/2">
               <img

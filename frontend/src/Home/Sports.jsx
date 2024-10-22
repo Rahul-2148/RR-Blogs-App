@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 function Sports() {
   const { blogs } = useAuth();
-  const devotionalBlogs = blogs?.filter((blog) => blog.category === "Sports");
-  console.log(devotionalBlogs);
+  const sportsBlogs = blogs?.filter((blog) => blog.category === "Sports");
+  console.log(sportsBlogs);
   return (
     <div>
       <div className="container mx-auto my-12 p-4">
@@ -15,8 +15,8 @@ function Sports() {
           religions, and belief systems
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
-          {devotionalBlogs && devotionalBlogs.length > 0 ? (
-            devotionalBlogs.map((blog, index) => (
+          {sportsBlogs && sportsBlogs.length > 0 ? (
+            sportsBlogs.map((blog, index) => (
               <Link
                 to={`/blog/${blog._id}`}
                 key={index}
